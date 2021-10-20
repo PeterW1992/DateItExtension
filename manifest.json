@@ -1,0 +1,14 @@
+{
+  "name": "Date It",
+  "description": "Date It",
+  "version": "1.0",
+  "manifest_version": 3,
+  "permissions": ["tabs", "storage", "activeTab", "scripting"],
+   "background": {
+    "service_worker": "background.js"
+  },
+  "options_page": "options.html",
+  "action": {
+    "default_popup": "popup.html"
+  }
+}
